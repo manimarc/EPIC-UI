@@ -1,0 +1,20 @@
+{
+  "name": "epic-ui",
+  "version": "1.0.0",
+  "description": "1. login and registration page created 2. manage users page that helps to view and managing users is created 3. user profile page that helps to view and update user's information is created 4. recover password page for forgetten user created",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manimarc/EPIC-UI.git"
+  },
+  "author": "Marc M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manimarc/EPIC-UI/issues"
+  },
+  "homepage": "https://github.com/manimarc/EPIC-UI#readme"
+}
