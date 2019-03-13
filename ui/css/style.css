@@ -119,9 +119,10 @@ footer{
 /*middle section*/
 
 #middlesection div{
-	float: center;
-	display: block;
+	float: left;
+	
 	padding: 0px 0px 0px 0px ;
+
 	/*	width: 80%px;*/
 }
 

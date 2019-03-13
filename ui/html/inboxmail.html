@@ -7,7 +7,7 @@
 		<meta name="keywords" content="web mail, Affordable web mail">
 		<meta name="author" content="Marc MANIRARUTA">
 		<title>EPIC MAIL | Welcome</title>
-		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="../css/style.css">
 
 	</head>
 	<body>
@@ -18,10 +18,10 @@
 				</div>
 				<nav>
 					<ul>
-						<li class="current"><a href="index.html">Home</a></li>
-						<li><a href="userprofile.html">Profile</a></li>
-						<li><a href="manageusers.html">Users</a></li>
-						<li><a href="logout.html">Log-out</a></li>
+						<li class="current"><a href="./epicdashboard.html">Home</a></li>
+						<li><a href="./userprofile.html">Profile</a></li>
+						<li><a href="./manageusers.html">Users</a></li>
+						<li><a href="./logout.html">Log-out</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -29,24 +29,26 @@
 <section id="leftsection">
 	<div class="lcontainer">
 					<nav>
-					<ul><li><a href="index.html?module=compose">Compose</a></li>
-						<li><a href="index.html?module=inbox">Inbox</a></li>
-						<li><a href="index.html?module=sent">Sent</a></li>
-						<li><a href="index.html?module=draft">Draft</a></li>
+					<ul><li><a href="./composemail.html">Compose</a></li>
+						<li><a href="./inboxmail.html">Inbox</a></li>
+						<li><a href="./sentemail.html">Sent</a></li>
+						<li><a href="./draftmail.html">Draft</a></li>
 					</ul>
 				</nav>
 	</div>
 </section>
 
 <section id="middlesection">
-	<div class="mcontainer">
-		<p align="center">All Messages</p>
-	</div>
+	<p> All messages</p>
+	<div id="inboxmsg"><a href="" id="msgusername">emailusername</a>    <a href=""  id="msgsubject">email details</a></div>
+
 </section>
 
 <section id="rightsection">
 	<div class="rcontainer">
-		<p align="center">message content</p>
+		<p align="left">message content</p>
+		<p><a href=""  id="msgforward">Forward</a> | | <a href=""  id="msgreply">Reply</a> | | <a href=""  id="msgsubject">Delete</a></p>
+		<p>some staff detail for user email goes here</p>
 	</div>
 </section>
 		<footer>
