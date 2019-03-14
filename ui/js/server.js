@@ -1,9 +1,6 @@
-// server.js
-console.log('app running on port ', 3000);
-
 const http = require('http');
 
-const app = require('./app');
+const app = require('../signup');
 
 
 const normalizePort = val => {
