@@ -14,7 +14,7 @@ const responseMessage  = document.getElementById('dmessage');
 signupBtn.addEventListener('click',(event)=>{
 event.preventDefault();
 const post = {
-		 fname_v : fname.value,
+		 fname_v : fname.value, 
 		lname_v : lname.value,
 		 uemail_v : uemail.value,
 		 uphone_v : uphone.value,
